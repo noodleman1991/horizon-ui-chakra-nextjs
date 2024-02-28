@@ -1,0 +1,67 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.freeBox__xlryD {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  width: 252px;
+  height: auto;
+  max-width: 100%;
+  padding: 8px;
+}
+.freeBox___5PRAz {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  min-width: 0;
+  padding: 8px;
+}
+.youTube:global(.__wab_instance) {
+  width: 220px;
+  height: 390px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  flex-shrink: 0;
+}
+.freeBox__fcVw7 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  min-width: 0;
+  padding: 8px;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 220px;
+  height: 390px;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
